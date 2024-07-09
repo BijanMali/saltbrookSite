@@ -285,6 +285,7 @@ li{
         color: aliceblue;
         margin-top:20vh;
         margin-bottom: 50vh;
+	margin-left:-2px;
         margin-right:25vw;
     }
     
