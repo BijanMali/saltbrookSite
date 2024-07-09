@@ -348,7 +348,7 @@ li{
 @media screen and (max-width:480px){
     .content{
 	position: absolute;
-        left:-16px;
+        left:-19px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -366,7 +366,7 @@ li{
 @media screen and (max-width:473px){
     .content{
 	position: absolute;
-        left:-16px;
+        left:-19px;
         display: flex;
         flex-direction: column;
         justify-content: center;
