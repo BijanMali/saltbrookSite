@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.im1{
+    height: 10vw;
+    border: solid 3px rgb(151, 203, 255);
+    border-radius: 100px;
+    margin-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.faculty{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 41%, rgba(52,0,108,1) 100%);
+}
+
+.exp{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding:5px 0px 5px 0px;
+    color: aliceblue;
+}
+
+.p1{
+    font-size: 1.3vw;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+}
+
+.sub{
+    font-size: 1.2vw;
+    font-weight: 200;
+    color: rgb(226, 226, 226);
+    background-color: rgb(0, 109, 210);
+    margin-top:5px;
+    padding:2px 10px 2px 10px;
+    border:solid 0px;
+    border-radius: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.fac-mid-4 .sub{
+    font-size: 1.2vw;
+    font-weight: 200;
+    color: rgb(226, 226, 226);
+    background-color: rgb(0, 109, 210);
+    margin-top:5px;
+    padding:2px 20px 2px 20px;
+    border:solid 0px;
+    border-radius: 15px;
+}
+
+.faculty-head{
+    margin:30px 0px 40px 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.faculty-head h1{
+    font-size: 40px;
+    text-decoration: underline rgb(67, 164, 255) 6px;
+    color: aliceblue;
+}
+
+.fac-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.fac-top-1{
+    margin:20px 2vw 20px 2vw;
+    padding: 10px 8px 30px 8px;
+    border: solid 0px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fac-top-2{
+    margin:20px 2vw 20px 2vw;
+    padding: 10px 8px 30px 8px;
+    border: solid 0px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fac-top-3{
+    margin:20px 2vw 20px 2vw;
+    padding: 10px 8px 30px 8px;
+    border: solid 0px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fac-top-4{
+    margin:20px 2vw 20px 2vw;
+    padding: 10px 8px 30px 8px;
+    border: solid 0px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fac-top-5{
+    margin:20px 2vw 20px 2vw;
+    padding: 10px 8px 30px 8px;
+    border: solid 0px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fac-mid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.fac-mid-1{
+    margin:20px 2vw 20px 2vw;
+    padding: 10px 8px 30px 8px;
+    border: solid 0px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fac-mid-2{
+    margin:20px 2vw 20px 2vw;
+    padding: 10px 8px 30px 8px;
+    border: solid 0px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fac-mid-3{
+    margin:20px 2vw 20px 2vw;
+    padding: 10px 8px 30px 8px;
+    border: solid 0px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fac-mid-4{
+    margin:20px 2vw 20px 2vw;
+    padding: 10px 8px 30px 8px;
+    border: solid 0px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 571px) {
+    .im1{
+        height: 90px;
+        border: solid 2px rgb(0, 109, 210);
+        border-radius: 100px;
+        margin-bottom: 10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    
+    .faculty{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .faculty-list{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    .exp{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 12px;
+        padding:5px 0px 5px 0px;
+    }
+    
+    .p1{
+        font-size: 13px;
+        font-weight: 400;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(25, 25, 25);
+    }
+    
+    .sub{
+        font-size: 12px;
+        font-weight: 200;
+        color: rgb(226, 226, 226);
+        background-color: rgb(0, 109, 210);
+        margin-top:5px;
+        padding:2px 10px 2px 10px;
+        border:solid 0px;
+        border-radius: 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .fac-mid-4 .sub{
+        font-size: 12px;
+        font-weight: 200;
+        color: rgb(226, 226, 226);
+        background-color: rgb(0, 109, 210);
+        margin-top:5px;
+        padding:2px 20px 2px 20px;
+        border:solid 0px;
+        border-radius: 15px;
+    }
+    
+    .faculty-head{
+        margin:30px 0px 40px 0px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .faculty-head h1{
+        font-size: 30px;
+        text-decoration: underline rgb(0, 109, 210) 6px;
+    }
+    
+    .fac-top{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .fac-top-1{
+        margin:20px 2vw 20px 2vw;
+        padding: 10px 8px 30px 8px;
+        border: solid 0px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .fac-top-2{
+        margin:20px 2vw 20px 2vw;
+        padding: 10px 8px 30px 8px;
+        border: solid 0px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .fac-top-3{
+        margin:20px 2vw 20px 2vw;
+        padding: 10px 8px 30px 8px;
+        border: solid 0px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .fac-top-4{
+        margin:20px 2vw 20px 2vw;
+        padding: 10px 8px 30px 8px;
+        border: solid 0px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .fac-top-5{
+        margin:20px 2vw 20px 2vw;
+        padding: 10px 8px 30px 8px;
+        border: solid 0px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .fac-mid{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .fac-mid-1{
+        margin:20px 2vw 20px 2vw;
+        padding: 10px 8px 30px 8px;
+        border: solid 0px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .fac-mid-2{
+        margin:20px 2vw 20px 2vw;
+        padding: 10px 8px 30px 8px;
+        border: solid 0px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .fac-mid-3{
+        margin:20px 2vw 20px 2vw;
+        padding: 10px 8px 30px 8px;
+        border: solid 0px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .fac-mid-4{
+        margin:20px 2vw 20px 2vw;
+        padding: 10px 8px 30px 8px;
+        border: solid 0px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
