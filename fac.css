@@ -181,7 +181,7 @@
     flex-direction: column;
 }
 
-@media screen and (max-width: 369px) {
+@media screen and (max-width: 531px) {
     .im1{
         height: 90px;
         border: solid 2px rgb(0, 109, 210);
