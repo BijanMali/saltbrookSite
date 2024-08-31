@@ -250,10 +250,6 @@
         width: 100%;
     }
 
-    /* .container:hover> :not(:hover) {
-        opacity: 0.2;
-    } */
-
     .title {
         width: 100%;
         display: inline-block;
